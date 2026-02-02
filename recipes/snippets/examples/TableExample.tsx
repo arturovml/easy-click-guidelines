@@ -1,6 +1,6 @@
 "use client";
 
-import { Table, TableCell, TableHead, TableRow, TableEmpty } from "@/components/ui/table";
+import { Table, TableCell, TableHead, TableRow, TableEmpty } from "@/recipes/snippets/ui/table";
 
 const rows = [
   { location: "Downtown", status: "On track", occupancy: "86%" },

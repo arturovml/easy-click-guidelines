@@ -1,5 +1,5 @@
 import { PatternPage } from "@/components/patterns/PatternPage";
-import { Card } from "@/components/ui/card";
+import { Card } from "@/recipes/snippets/ui/card";
 
 export default function LoadingPattern() {
   return (

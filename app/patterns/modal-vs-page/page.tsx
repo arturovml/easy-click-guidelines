@@ -1,7 +1,7 @@
 import { PatternPage } from "@/components/patterns/PatternPage";
-import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { DialogExample } from "@/components/examples/DialogExample";
+import { Card } from "@/recipes/snippets/ui/card";
+import { Button } from "@/recipes/snippets/ui/button";
+import { DialogExample } from "@/recipes/snippets/examples/DialogExample";
 
 export default function ModalVsPagePattern() {
   return (

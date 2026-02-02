@@ -1,7 +1,7 @@
 import { PatternPage } from "@/components/patterns/PatternPage";
-import { Button } from "@/components/ui/button";
-import { Card, CardHeader } from "@/components/ui/card";
-import { Table, TableCell, TableHead, TableRow } from "@/components/ui/table";
+import { Button } from "@/recipes/snippets/ui/button";
+import { Card, CardHeader } from "@/recipes/snippets/ui/card";
+import { Table, TableCell, TableHead, TableRow } from "@/recipes/snippets/ui/table";
 
 export default function ScreenLayoutPattern() {
   return (

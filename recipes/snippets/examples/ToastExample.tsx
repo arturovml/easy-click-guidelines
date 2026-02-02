@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { useToast } from "@/components/ui/toast";
+import { Button } from "@/recipes/snippets/ui/button";
+import { useToast } from "@/recipes/snippets/ui/toast";
 
 export function ToastExample() {
   const { notify } = useToast();

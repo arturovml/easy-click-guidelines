@@ -1,20 +1,20 @@
 "use client";
 
 import { Section } from "@/components/Section";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Select } from "@/components/ui/select";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Switch } from "@/components/ui/switch";
-import { Badge } from "@/components/ui/badge";
-import { Alert } from "@/components/ui/alert";
-import { Card, CardHeader, CardStat } from "@/components/ui/card";
-import { ToastProvider } from "@/components/ui/toast";
-import { FormExample } from "@/components/examples/FormExample";
-import { DialogExample } from "@/components/examples/DialogExample";
-import { TableExample } from "@/components/examples/TableExample";
-import { ToastExample } from "@/components/examples/ToastExample";
+import { Button } from "@/recipes/snippets/ui/button";
+import { Input } from "@/recipes/snippets/ui/input";
+import { Textarea } from "@/recipes/snippets/ui/textarea";
+import { Select } from "@/recipes/snippets/ui/select";
+import { Checkbox } from "@/recipes/snippets/ui/checkbox";
+import { Switch } from "@/recipes/snippets/ui/switch";
+import { Badge } from "@/recipes/snippets/ui/badge";
+import { Alert } from "@/recipes/snippets/ui/alert";
+import { Card, CardHeader, CardStat } from "@/recipes/snippets/ui/card";
+import { ToastProvider } from "@/recipes/snippets/ui/toast";
+import { FormExample } from "@/recipes/snippets/examples/FormExample";
+import { DialogExample } from "@/recipes/snippets/examples/DialogExample";
+import { TableExample } from "@/recipes/snippets/examples/TableExample";
+import { ToastExample } from "@/recipes/snippets/examples/ToastExample";
 
 const sections = [
   { id: "buttons", label: "Buttons" },

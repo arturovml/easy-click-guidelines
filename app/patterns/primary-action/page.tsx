@@ -1,6 +1,6 @@
 import { PatternPage } from "@/components/patterns/PatternPage";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
+import { Button } from "@/recipes/snippets/ui/button";
+import { Card } from "@/recipes/snippets/ui/card";
 
 export default function PrimaryActionPattern() {
   return (

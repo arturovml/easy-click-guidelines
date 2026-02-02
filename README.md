@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Easy Click Design System (Tokens + UX)
 
-## Getting Started
+This repo is a **token + docs + recipes** source for Easy Click products.
+It is designed to plug into apps that already use **shadcn/ui**.
 
-First, run the development server:
+## What this repo provides
+
+- **Tokens**: `tokens/easyclick.css` (source of truth)
+- **ThemeProvider**: data-theme based + anti-FOUC script
+- **Docs**: UX manifesto + UX rules
+- **Recipes**: copy/paste snippets that use shadcn components
+
+## What this repo does NOT provide
+
+- It does **not** ship a base `Button`, `Dialog`, `Table`, etc.  
+  Each consuming app should use its own `@/components/ui/*` from shadcn.
+
+## Quick usage (manual copy)
+
+1) Copy `tokens/easyclick.css` into your app and import it in your `globals.css`.
+2) Copy `components/theme/ThemeProvider.tsx`.
+3) Add the anti-FOUC script in `app/layout.tsx`.
+4) Use recipes in `/recipes` as starting points.
+
+See `docs/consumption.md` for exact steps.
+
+## Local docs site (optional)
+
+This repo still contains a Next.js site for demos and pattern previews.
+Run it locally if needed:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

@@ -1,6 +1,6 @@
 import { PatternPage } from "@/components/patterns/PatternPage";
-import { Card } from "@/components/ui/card";
-import { FormExample } from "@/components/examples/FormExample";
+import { Card } from "@/recipes/snippets/ui/card";
+import { FormExample } from "@/recipes/snippets/examples/FormExample";
 
 export default function FormPattern() {
   return (

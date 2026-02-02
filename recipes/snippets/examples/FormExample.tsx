@@ -4,12 +4,12 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Select } from "@/components/ui/select";
-import { Textarea } from "@/components/ui/textarea";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Switch } from "@/components/ui/switch";
+import { Button } from "@/recipes/snippets/ui/button";
+import { Input } from "@/recipes/snippets/ui/input";
+import { Select } from "@/recipes/snippets/ui/select";
+import { Textarea } from "@/recipes/snippets/ui/textarea";
+import { Checkbox } from "@/recipes/snippets/ui/checkbox";
+import { Switch } from "@/recipes/snippets/ui/switch";
 
 const formSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters."),

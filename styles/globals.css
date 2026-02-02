@@ -1,83 +1,8 @@
+@import "../tokens/easyclick.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  color-scheme: light;
-  --background: 248 250 252;
-  --surface: 255 255 255;
-  --surface-muted: 241 245 249;
-  --border: 226 232 240;
-  --foreground: 15 23 42;
-  --muted: 100 116 139;
-  --muted-foreground: 71 85 105;
-}
-
-html[data-theme="light"] {
-  color-scheme: light;
-  --background: 248 250 252;
-  --surface: 255 255 255;
-  --surface-muted: 241 245 249;
-  --border: 226 232 240;
-  --foreground: 15 23 42;
-  --muted: 100 116 139;
-  --muted-foreground: 71 85 105;
-
-  --brand-primary: 249 115 22;
-  --brand-hover: 234 88 12;
-  --brand-muted: 255 237 213;
-
-  --success: 16 185 129;
-  --success-muted: 220 252 231;
-  --warning: 245 158 11;
-  --warning-muted: 254 243 199;
-  --danger: 239 68 68;
-  --danger-muted: 254 226 226;
-  --info: 56 189 248;
-  --info-muted: 224 242 254;
-
-  --radius-xs: 4px;
-  --radius-sm: 6px;
-  --radius-md: 8px;
-  --radius-lg: 12px;
-  --radius-xl: 16px;
-
-  --shadow-card: 0 1px 2px 0 rgb(15 23 42 / 0.06),
-    0 8px 24px -16px rgb(15 23 42 / 0.28);
-  --shadow-float: 0 4px 16px -8px rgb(15 23 42 / 0.28),
-    0 16px 40px -20px rgb(15 23 42 / 0.4);
-  --shadow-inset: inset 0 1px 0 rgb(255 255 255 / 0.6);
-}
-
-html[data-theme="dark"] {
-  color-scheme: dark;
-  --background: 2 6 23;
-  --surface: 15 23 42;
-  --surface-muted: 30 41 59;
-  --border: 51 65 85;
-  --foreground: 226 232 240;
-  --muted: 148 163 184;
-  --muted-foreground: 148 163 184;
-
-  --brand-primary: 251 146 60;
-  --brand-hover: 249 115 22;
-  --brand-muted: 67 20 7;
-
-  --success: 52 211 153;
-  --success-muted: 6 78 59;
-  --warning: 251 191 36;
-  --warning-muted: 120 53 15;
-  --danger: 248 113 113;
-  --danger-muted: 127 29 29;
-  --info: 125 211 252;
-  --info-muted: 12 74 110;
-
-  --shadow-card: 0 1px 2px 0 rgb(0 0 0 / 0.35),
-    0 10px 30px -18px rgb(0 0 0 / 0.6);
-  --shadow-float: 0 8px 24px -16px rgb(0 0 0 / 0.6),
-    0 24px 48px -32px rgb(0 0 0 / 0.7);
-  --shadow-inset: inset 0 1px 0 rgb(255 255 255 / 0.04);
-}
 
 * {
   border-color: rgb(var(--border) / 1);
